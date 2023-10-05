@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal class Birb : Animals
+    internal class Birb : Animal
     {
-        public bool canFly { get; set; }
+        public bool CanFly { get; set; }
 
-        public string color { get; set; }
+        public string Color { get; set; }
 
-        public string name { get; set; }
+        public string Name { get; set; }
 
-        public bool isCute { get; set; }
+        public bool IsCute { get; set; }
     }
 }

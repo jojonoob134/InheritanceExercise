@@ -6,19 +6,22 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal class Animals
+    internal class Animal
     {
-        public int legs { get; set; }
-        public string habitat { get; set; }
-        public bool hasTail { get; set; }
-        public bool eatsMeat { get; set; }
+        public int Legs { get; set; }
+        public string Habitat { get; set; }
+        public bool HasTail { get; set; }
+        public bool EatsMeat { get; set; }
 
         public void textOpt(Birb animal)
         {
-            Console.WriteLine($"The animal's name is {animal.name}");
-            Console.WriteLine($"it had {animal.legs} legs");
-            Console.WriteLine($"It usualy lives in {animal.habitat}");
-            if (animal.hasTail)
+            Console.WriteLine($"The animal's name is {animal.Name}");
+            Console.WriteLine();
+            Console.WriteLine($"it had {animal.Legs} legs");
+            Console.WriteLine();
+            Console.WriteLine($"It usualy lives in {animal.Habitat}");
+            Console.WriteLine();
+            if (animal.HasTail)
             {
                 Console.WriteLine("yes it dose have a tail");
             }
@@ -26,7 +29,8 @@ namespace Inheritance
             {
                 Console.WriteLine("no it dose not have a tail");
             }
-            if (animal.eatsMeat)
+            Console.WriteLine();
+            if (animal.EatsMeat)
             {
                 Console.WriteLine("yes it dose eat meat");
             }
@@ -34,7 +38,8 @@ namespace Inheritance
             {
                 Console.WriteLine("no it dose not eat meat");
             }
-            if (animal.canFly)
+            Console.WriteLine();
+            if (animal.CanFly)
             {
                 Console.WriteLine("yes it can");
             }
@@ -42,8 +47,10 @@ namespace Inheritance
             {
                 Console.WriteLine("no it can not fly");
             }
-            Console.WriteLine($"the color of there feathers are {animal.color}");
-            if (animal.isCute)
+            Console.WriteLine();
+            Console.WriteLine($"the color of there feathers are {animal.Color}");
+            Console.WriteLine();
+            if (animal.IsCute)
             {
                 Console.WriteLine("yes it is cute");
             }
@@ -58,10 +65,13 @@ namespace Inheritance
 
         public void textOpt2(Reptile animal)
         {
-            Console.WriteLine($"The animal's name is {animal.name}");
-            Console.WriteLine($"it had {animal.legs} legs");
-            Console.WriteLine($"It usualy lives in {animal.habitat}");
-            if (animal.hasTail)
+            Console.WriteLine($"The animal's name is {animal.Name}");
+            Console.WriteLine();
+            Console.WriteLine($"it had {animal.Legs} legs");
+            Console.WriteLine();
+            Console.WriteLine($"It usualy lives in {animal.Habitat}");
+            Console.WriteLine();
+            if (animal.HasTail)
             {
                 Console.WriteLine("yes it dose have a tail");
             }
@@ -69,7 +79,8 @@ namespace Inheritance
             {
                 Console.WriteLine("no it dose not have a tail");
             }
-            if (animal.eatsMeat)
+            Console.WriteLine();
+            if (animal.EatsMeat)
             {
                 Console.WriteLine("yes it dose eat meat");
             }
@@ -77,9 +88,12 @@ namespace Inheritance
             {
                 Console.WriteLine("no it dose not eat meat");
             }
-            Console.WriteLine($"it has {animal.scailColor} scails");
-            Console.WriteLine($"it had {animal.eyeColor} color eyes");
-            if (animal.isAFunnyLittleDude)
+            Console.WriteLine();
+            Console.WriteLine($"it has {animal.ScailColor} scails");
+            Console.WriteLine();
+            Console.WriteLine($"it had {animal.EyeColor} color eyes");
+            Console.WriteLine();
+            if (animal.IsAFunnyLittleDude)
             {
                 Console.WriteLine("yes it is a funny little dude");
             }

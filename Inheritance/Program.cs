@@ -7,7 +7,7 @@ namespace Inheritance
         static void Main(string[] args)
         {
             // TODO Be sure to follow best practice when creating your classes
-            Animals animals = new Animals();
+            Animal animals = new Animal();
             // Create a class Animal
             // give this class 4 members that all Animals have in common
 
@@ -28,14 +28,14 @@ namespace Inheritance
              * Creatively display the class member values 
              */
             Birb birb = new Birb();
-            birb.name = "Mockingbird";
-            birb.legs = 2;
-            birb.habitat = "towns";
-            birb.eatsMeat = false;
-            birb.hasTail = true;
-            birb.canFly = true;
-            birb.color = "grey";
-            birb.isCute = true;
+            birb.Name = "Mockingbird";
+            birb.Legs = 2;
+            birb.Habitat = "towns";
+            birb.EatsMeat = false;
+            birb.HasTail = true;
+            birb.CanFly = true;
+            birb.Color = "grey";
+            birb.IsCute = true;
             animals.textOpt(birb);
             Console.WriteLine("");
             Console.WriteLine("");
@@ -47,14 +47,14 @@ namespace Inheritance
              * Creatively display the class member values 
              */
             Reptile reptile = new Reptile();
-            reptile.name = "Green anole";
-            reptile.legs = 4;
-            reptile.habitat = "forests";
-            reptile.eatsMeat = false;
-            reptile.hasTail = true;
-            reptile.scailColor = "green";
-            reptile.eyeColor = "blue";
-            reptile.isAFunnyLittleDude = true;
+            reptile.Name = "Green anole";
+            reptile.Legs = 4;
+            reptile.Habitat = "forests";
+            reptile.EatsMeat = false;
+            reptile.HasTail = true;
+            reptile.ScailColor = "green";
+            reptile.EyeColor = "blue";
+            reptile.IsAFunnyLittleDude = true;
             animals.textOpt2(reptile);
         }
     }
